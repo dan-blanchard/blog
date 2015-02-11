@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "dan-blanchard",
-    "repositoryName": "blog",
-    "branch": "gh-pages"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"dan-blanchard","repositoryName":"blog","branch":"gh-pages"},"site":{"title":"Where does this title show up?","description":"And what about the description?","url":"http://dan-blanchard.github.io/blog"},"socialnetwork":{},"theme":{"name":"Casper","url":"http://dan-blanchard.github.io/blog/themes/Casper"}}
