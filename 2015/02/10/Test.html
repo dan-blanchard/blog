@@ -25,22 +25,22 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="http://dan-blanchard.github.io/blog/themes/uno/assets/css/uno.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//dan-blanchard.github.io/blog/themes/uno/assets/css/uno.css?v=1.0.0" />
 
-    <link rel="canonical" href="http://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
+    <link rel="canonical" href="https://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
     
     <meta property="og:site_name" content="Dan&#x27;s Tech Blog" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Test" />
     <meta property="og:description" content="This is a test..." />
-    <meta property="og:url" content="http://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
+    <meta property="og:url" content="https://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
     <meta property="article:published_time" content="2015-02-10T05:00:00.000Z" />
-    <meta property="article:modified_time" content="2015-02-11T03:36:47.412Z" />
+    <meta property="article:modified_time" content="2015-03-25T20:04:04.009Z" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Test" />
     <meta name="twitter:description" content="This is a test..." />
-    <meta name="twitter:url" content="http://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
+    <meta name="twitter:url" content="https://dan-blanchard.github.io/blog/2015/02/10/Test.html" />
     
     <script type="application/ld+json">
 {
@@ -52,18 +52,19 @@
         "name": "Dan Blanchard",
         "image": "https://avatars.githubusercontent.com/u/976345?v=3",
         "url": "undefined/author/undefined",
-        "sameAs": "dan-blanchard.github.io"
+        "sameAs": "https://dan-blanchard.github.io"
     },
     "headline": "Test",
-    "url": "http://dan-blanchard.github.io/blog/2015/02/10/Test.html",
+    "url": "https://dan-blanchard.github.io/blog/2015/02/10/Test.html",
     "datePublished": "2015-02-10T05:00:00.000Z",
-    "dateModified": "2015-02-11T03:36:47.412Z",
+    "dateModified": "2015-03-25T20:04:04.009Z",
     "description": "This is a test..."
 }
     </script>
 
     <meta name="generator" content="Ghost ?" />
-    <link rel="alternate" type="application/rss+xml" title="Dan&#x27;s Tech Blog" href="http://dan-blanchard.github.io/blog/rss" />
+    <link rel="alternate" type="application/rss+xml" title="Dan&#x27;s Tech Blog" href="https://dan-blanchard.github.io/blog/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 
 </head>
 <body class="post-template no-js">
@@ -79,9 +80,9 @@
         <div class="panel-main__inner panel-inverted">
         <div class="panel-main__content">
     
-            <h1 class="panel-cover__title panel-title"><a href="http://dan-blanchard.github.io/blog" title="link to homepage for Dan&#x27;s Tech Blog">Dan&#x27;s Tech Blog</a></h1>
+            <h1 class="panel-cover__title panel-title"><a href="https://dan-blanchard.github.io/blog" title="link to homepage for Dan&#x27;s Tech Blog">Dan&#x27;s Tech Blog</a></h1>
             <hr class="panel-cover__divider" />
-            <p class="panel-cover__description">I’m a Research Engineer in the NLP group at ETS and father to two adorable sons. Long ago I used to do research on building an unsupervised word segmentation model using insights from infant language acquisition research. For more recent publications, please see my Google scholar page. For useful technical tips about Python development, check out my Drafts.
+            <p class="panel-cover__description">I’m a Backend Engineer for Parse.ly and father to two adorable sons. Long ago I used to do research on building an unsupervised word segmentation model using insights from infant language acquisition research. For more recent publications, please see my Google scholar page. For useful technical tips about Python development, check out my Drafts.
     
     I’m originally from Oley, PA, and I attended Millersville University for my BS in Computer Science. I have both an MS in Computer Science and an MA in Linguistics &amp; Cognitive Science from the University of Delaware.</p>
             <hr class="panel-cover__divider panel-cover__divider--secondary" />
@@ -90,7 +91,7 @@
     
               <nav class="cover-navigation cover-navigation--primary">
                 <ul class="navigation">
-                  <li class="navigation__item"><a href="/#blog" title="link to Dan&#x27;s Tech Blog blog" class="blog-button">Blog</a></li>
+                  <li class="navigation__item"><a href="https://dan-blanchard.github.io/blog/#blog" title="link to Dan&#x27;s Tech Blog blog" class="blog-button">Blog</a></li>
                 </ul>
               </nav>
     
@@ -157,6 +158,7 @@
         <div class="panel-cover--overlay"></div>
       </div>
     </header>
+
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
             
@@ -206,9 +208,20 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
 
-    <script type="text/javascript" src="http://dan-blanchard.github.io/blog/themes/uno/assets/js/main.js?v=1.0.0"></script>
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//dan-blanchard.github.io/blog/themes/uno/assets/js/main.js?v=1.0.0"></script>
     
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
